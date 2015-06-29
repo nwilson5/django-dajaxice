@@ -19,7 +19,7 @@ setup(
                       "1.0 object."),
     install_requires=[
         'Django>=1.3',
-        'six==1.7.2',
+        'six>=1.7.2',
     ],
     classifiers=['Development Status :: 4 - Beta',
                 'Environment :: Web Environment',
