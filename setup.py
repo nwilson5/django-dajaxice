@@ -18,7 +18,7 @@ setup(
                       "unobtrusive standard-compliant (W3C) XMLHttpRequest "
                       "1.0 object."),
     install_requires=[
-        'Django>=1.3'
+        'Django>=1.3',
         'six==1.7.2',
     ],
     classifiers=['Development Status :: 4 - Beta',
