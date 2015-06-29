@@ -1,6 +1,10 @@
 from django.conf import settings
 
-from Dajaxice import Dajaxice, dajaxice_autodiscover
+from six import PY2
+if PY2:
+    from Dajaxice import Dajaxice, dajaxice_autodiscover
+else:
+    from .Dajaxice import Dajaxice, dajaxice_autodiscover
 
 
 class DajaxiceConfig(object):
